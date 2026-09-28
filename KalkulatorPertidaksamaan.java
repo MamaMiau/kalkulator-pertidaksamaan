@@ -30,5 +30,7 @@ public class KalkulatorPertidaksamaan {
         if (valid) {
             System.out.println(x + " " + operator + " " + batas + " : " + hasil);
         }
+
+        input.close();
     }
 }
